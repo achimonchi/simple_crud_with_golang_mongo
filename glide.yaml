@@ -1,2 +1,3 @@
 package: github.com/achimonchi/belajar_crud_mongodb
-import: []
+import:
+- package: gopkg.in/mgo.v2

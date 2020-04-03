@@ -1,0 +1,6 @@
+hash: 2967d7c41c61c6090cc121c0b170e8286e9f1fe23ef26774383064ebf18afaf0
+updated: 2020-04-03T09:50:23.194779003+07:00
+imports:
+- name: gopkg.in/mgo.v2
+  version: a6b53ec6cb22a3699387a57a161566f9402ee85b
+testImports: []
