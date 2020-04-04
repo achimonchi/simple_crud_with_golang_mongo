@@ -23,6 +23,7 @@ func main() {
 	saveProfile(profileRepository)
 }
 
+// function untuk save data
 func saveProfile(profileRepository repository.ProfileRepository) {
 	var p model.Profile
 	p.ID = "u1"
@@ -37,4 +38,24 @@ func saveProfile(profileRepository repository.ProfileRepository) {
 	if err != nil {
 		fmt.Println(err)
 	}
+}
+
+// function untuk update data
+func updateProfile(id string, profileRepository repository.ProfileRepository) {
+
+}
+
+// function untuk delete data
+func deleteProfile(id string, profileRepository repository.ProfileRepository) {
+
+}
+
+// function untuk lihat seluruh data
+func findAll(profileRepository repository.ProfileRepository) {
+
+}
+
+// function untuk lihat data berdasarkan id
+func findByID(id string, profileRepository repository.ProfileRepository) {
+
 }
